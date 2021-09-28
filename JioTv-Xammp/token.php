@@ -1,10 +1,5 @@
 <?php
 
-# © 2021 Techie Sneh DO NOT EDIT ANYTHING TO KEEP RUNNING
-
-# Here I Put Token which Available Publicly I Recommended Use Your Own Token Here 
-# For Suppport techiesneh@protonmail.com
-
 
 
 $jctBase = "cutibeau2ic";
@@ -34,7 +29,6 @@ $jct = generateJct($st, $pxe);
 return "?jct=" . $jct . "&pxe=" . $pxe . "&st=" . $st;
 }
 
-# © 2021 Techie Sneh DO NOT EDIT ANYTHING TO KEEP RUNNING
 
 
 echo generateToken();
