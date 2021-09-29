@@ -11,7 +11,7 @@ header("Access-Control-Expose-Headers: Content-Length,Content-Range");
 header("Access-Control-Allow-Headers: Range");
 header("Accept-Ranges: bytes");
 
-$p= @file_get_contents("http://localhost/token.php"); # Chnage This Path only according to Your Server and Folder 
+$p= @file_get_contents("https://github.com/11081995/GEFIBER_JIOTV/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWUiOiJhNTFkMmRhMy03OWIxLTRhNmEtYWZkYS1jYmJkZmQ2MDQ4YTkiLCJ1c2VyVHlwZSI6IlJJTHBlcnNvbiIsImF1dGhMZXZlbCI6IjQwIiwiZGV2aWNlSWQiOiI4ODAyNjZhY2I1NDcyYmJjYWYwZTY0ZWE2YmE0NWE2ZDM1ZTAxNzVkZWQ2NTk4OTIwNGM0NDRhNzlhN2U3MWM4MDA0YWVkNTJlMDgyYWYzN2JkYjk1NGJiNTYxYjM3YmMxOWViOWMzNWMwZmI2MWFjOWVlZjE2ZjM3OTMwOWExNiIsImp0aSI6IjI5OWFjNzM1LTAxZjYtNDIzZi1iN2RlLWRhZjMxYWZlYzdiNCIsImlhdCI6MTYzMjkzMTI5N30.04JutQvHFFJbeug-sQBLMlcRk5J3OF1Aip6H-RF2PbY.php"); 
 
 
 $_SESSION["p"]=$p;
@@ -38,7 +38,6 @@ $hs = str_replace("https://tv.media.jio.com/streams_hotstar/" . $_REQUEST["c"] .
 
 print $hs;
 
-    # © 2021 Techie Sneh DO NOT EDIT ANYTHING TO KEEP RUNNING
-
+    
 }
 ?>
